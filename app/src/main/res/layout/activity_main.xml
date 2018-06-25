@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <SeekBar
+        android:id="@+id/sb_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:text="0"
+        android:textColor="#4caf50"
+        android:textStyle="bold"
+        android:textSize="72sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:text="Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/img_avatar"
+        android:layout_marginTop="16dp"
+        android:layout_width="192dp"
+        android:layout_height="192dp" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:text="Download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
